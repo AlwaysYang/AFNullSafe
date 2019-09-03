@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AFNullSafe_Example' do
+  pod 'AFNullSafe', :path => '../'
+
+  target 'AFNullSafe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
