@@ -2,8 +2,8 @@
 //  AFViewController.m
 //  AFNullSafe
 //
-//  Created by 425611381@qq.com on 09/03/2019.
-//  Copyright (c) 2019 425611381@qq.com. All rights reserved.
+//  Created by MAF on 09/03/2019.
+//  Copyright (c) 2019 MAF. All rights reserved.
 //
 
 #import "AFViewController.h"
@@ -17,7 +17,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *arr = [NSNull null];
+    [arr firstObject];
+    
+    NSMutableArray *mArr = [NSNull null];
+    [mArr addObject:@"0"];
+    
+    NSMutableDictionary *mDic = [NSNull null];
+    [mDic setObject:@"0" forKey:@"number"];
+    
+    NSString *str = [NSNull null];
+    [str integerValue];
+    
+    NSNumber *number = [NSNull null];
+    [number integerValue];
 }
 
 - (void)didReceiveMemoryWarning

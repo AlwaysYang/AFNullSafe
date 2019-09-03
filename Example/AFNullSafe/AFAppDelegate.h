@@ -2,8 +2,8 @@
 //  AFAppDelegate.h
 //  AFNullSafe
 //
-//  Created by 425611381@qq.com on 09/03/2019.
-//  Copyright (c) 2019 425611381@qq.com. All rights reserved.
+//  Created by MAF on 09/03/2019.
+//  Copyright (c) 2019 MAF. All rights reserved.
 //
 
 @import UIKit;

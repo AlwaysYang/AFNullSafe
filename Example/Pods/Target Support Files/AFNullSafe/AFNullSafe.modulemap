@@ -1,0 +1,6 @@
+framework module AFNullSafe {
+  umbrella header "AFNullSafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

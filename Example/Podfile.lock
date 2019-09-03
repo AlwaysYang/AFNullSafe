@@ -1,0 +1,16 @@
+PODS:
+  - AFNullSafe (0.1.0)
+
+DEPENDENCIES:
+  - AFNullSafe (from `../`)
+
+EXTERNAL SOURCES:
+  AFNullSafe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNullSafe: a2b65e6b02aea40f1c093405a5431b8475d77ce8
+
+PODFILE CHECKSUM: 7f3b41f7693bbd130a94948dd111a8f9fccf7d7b
+
+COCOAPODS: 1.7.0.rc.2
