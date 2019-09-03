@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/AFNullSafe.svg?style=flat)](https://cocoapods.org/pods/AFNullSafe)
 [![Platform](https://img.shields.io/cocoapods/p/AFNullSafe.svg?style=flat)](https://cocoapods.org/pods/AFNullSafe)
 
+防止解析服务器数据获取到NULL，对NULL对象调用其他类（NSString 、NSArray等）的方法时崩溃。
+
+原理：只要在`NULL`找不到方法实现的时候向能响应这个方法的对象进行转发。
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
